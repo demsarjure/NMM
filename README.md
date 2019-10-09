@@ -3,6 +3,7 @@ Repository containing the source code behind the manuscript Synaptic Scaling Imp
 
 # Authors
 Jure Demšar, Faculty of Computer and Information Science and Psychology Department at the Faculty of Arts, University of Ljubljana, Slovenia
+
 Rob Forsyth, Institute of Neuroscience, Newcastle University, UK
 
 # Abstract
