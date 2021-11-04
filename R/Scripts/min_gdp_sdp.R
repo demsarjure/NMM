@@ -22,7 +22,7 @@ r <- 0.03
 deg <- 27.6
 
 # folder
-fileName <- paste0("real/M_parameters_real.csv")
+fileName <- paste0("real/M_metrics_real.csv")
 
 # data
 df <- data.frame(fread(fileName, sep = ",", header = FALSE))
@@ -77,4 +77,4 @@ for (i in 1:n)
 # store in df_all
 df_all <- df
 
-# use the metrics_real_range or metrics_real to plot this
+# use the metrics_real_range.R script to plot this

@@ -1,4 +1,4 @@
-# run min_gdp_gdp frst to get the data frame!
+# run min_gdp_sdp first to get the data frame!
 
 # filter
 df <- df_all

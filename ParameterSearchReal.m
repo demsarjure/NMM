@@ -85,4 +85,4 @@ for a_sdp = a_sdp_m:s_a_sdp:a_sdp_M
 end
 
 % save
-csvwrite('./R/Results/real/M_parameters_real.csv', M);
+csvwrite('./R/Results/real/M_metrics_real.csv', M);
