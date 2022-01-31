@@ -8,6 +8,8 @@ df <- df[df$c_gdp >= 0.2 & df$c_gdp <= 0.4,]
 
 # melt
 df <- melt(df)
+# if above does not work try
+# df <- melt(data.table(df))
 
 p_l <- ggplot(df[df$variable == "l", ], aes(x = variable, y = value)) +
   geom_boxplot(colour = "grey25", fill = "#beaed4") +
